@@ -3,17 +3,4 @@ email: "email@example.com"
 description: "This is a description of my awesome site. Here I'll blog about technology, tutorials, and more."
 theme: jekyll-theme-cayman
 
-# Optional settings
-author: "Your Name"
-twitter_username: "yourhandle"
-github_username:  "yourusername"
 
-# Build settings
-plugins:
-  - jekyll-feed # Creates an Atom feed
-
-# Exclude from production build
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
