@@ -1,11 +1,22 @@
-theme: jekyll-theme-cayma
-title: XZ's homepage
-email: myemail@example.com
-description: >- # This means to ignore newlines until "baseurl:"
-  This is my awesome site where I blog about stuff.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mydomain.com" # the base hostname & protocol for your site
+title: "My Awesome Site"
+email: "email@example.com"
+description: "This is a description of my awesome site. Here I'll blog about technology, tutorials, and more."
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "http://example.com" # the base hostname & protocol for your site
 
+theme: jekyll-theme-cayman
 
+# Optional settings
+author: "Your Name"
+twitter_username: "yourhandle"
+github_username:  "yourusername"
 
+# Build settings
+plugins:
+  - jekyll-feed # Creates an Atom feed
 
+# Exclude from production build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
