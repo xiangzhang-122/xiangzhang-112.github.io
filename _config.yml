@@ -1,9 +1,6 @@
-title: "My Awesome Site"
+title: "X Awesome Site"
 email: "email@example.com"
 description: "This is a description of my awesome site. Here I'll blog about technology, tutorials, and more."
-baseurl: "" # the subpath of your site, e.g., /blog
-url: "http://example.com" # the base hostname & protocol for your site
-
 theme: jekyll-theme-cayman
 
 # Optional settings
