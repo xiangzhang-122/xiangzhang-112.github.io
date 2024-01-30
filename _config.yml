@@ -4,7 +4,7 @@ description: >- # This means to ignore newlines until "baseurl:"
   This is my awesome site where I blog about stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mydomain.com" # the base hostname & protocol for your site
-theme: simplex
+theme: theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
